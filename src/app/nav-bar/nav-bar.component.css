@@ -1,0 +1,52 @@
+#nav-bar {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+#nav-bar #navbar-content {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+#nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+#nav-bar .logo{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Kaushan Script', cursive;
+  line-height: 30px;
+  font-size: 36px;
+  text-shadow: 2px 2px rgb(40, 40, 40);
+
+}
+
+#nav-bar .logo a{
+  text-decoration: none;
+  color: #000;
+}
+
+#nav-bar .navbar-item{
+  font-family: 'League Spartan', sans-serif;
+  margin-left: 1rem;
+}
+
+#nav-bar .navbar-item .link {
+  text-decoration: none;
+  color: #000;
+  font-size: 17px;
+  line-height: 30px;
+  padding: 1.25rem 1rem;
+}
+
+#nav-bar .navbar-item .link:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #26cdca;
+  border: 1px solid #26cdca;
+  background-color: #fbfbfb;
+}
