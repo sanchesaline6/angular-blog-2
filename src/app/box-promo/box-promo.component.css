@@ -20,6 +20,11 @@
   letter-spacing: -0.7px;
 }
 
+#box-promo .column-left a {
+  text-decoration: none;
+  color: #161B3D;
+}
+
 #box-promo .column-left p {
   font-weight: 400;
   font-size: 22px;
