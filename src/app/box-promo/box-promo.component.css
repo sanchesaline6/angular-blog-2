@@ -1,0 +1,41 @@
+#box-promo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  justify-content: space-around;
+  padding: 1rem 0;
+  align-items: center;
+
+}
+#box-promo .column-left {
+  font-family: 'League Spartan', sans-serif;
+  width: 40%;
+  text-align: left;
+}
+
+#box-promo .column-left h2{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -0.7px;
+}
+
+#box-promo .column-left p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  font-family: 'Mulish', sans-serif;
+  color: #161B3D;
+  margin-top: 1rem;
+
+}
+
+#box-promo .column-right {
+  padding: 3rem 0;
+}
+
+#box-promo .column-right img{
+  box-shadow: -62px -35px 0px -1px rgba(38,205,202,0.77);
+  max-width: 500px;
+
+}
